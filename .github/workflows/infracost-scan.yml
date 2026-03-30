@@ -48,7 +48,7 @@ jobs:
           path: head
 
       - name: Run Infracost Scan
-        uses: infracost/actions/scan@7f87193
+        uses: infracost/actions/scan@7f871935a48b4e8142598658389a94a3270361d9
         with:
           api-key: ${{ secrets.INFRACOST_API_KEY }}
           base-path: base
